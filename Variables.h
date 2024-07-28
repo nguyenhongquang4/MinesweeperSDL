@@ -5,6 +5,8 @@
 
 #include "Texture.h"
 #include "Button.h"
+#include <sstream>
+#include <cstring>
 
 const std::string WINDOW_TITLE = "Minesweeper!";
 
@@ -35,13 +37,7 @@ extern LTexture mediumTable;
 extern LTexture hardTable;
 extern LTexture customStart;
 extern LTexture back;
-extern LTexture sound_on;
-extern LTexture sound_off;
 
-// image face
-extern LTexture winFace;
-extern LTexture playingFace;
-extern LTexture loseFace;
 
 // Tiles in board
 extern LTexture Tiles_image;
@@ -55,15 +51,34 @@ extern LTexture menu1Color;
 extern LTexture easyChoice;
 extern LTexture mediumChoice;
 extern LTexture hardChoice;
-extern LTexture customChoice;
 extern LTexture easyChoiceColor;
 extern LTexture mediumChoiceColor;
 extern LTexture hardChoiceColor;
-extern LTexture customChoiceColor;
+extern LTexture easyBackGround;
+extern LTexture mediumBackGround;
+extern LTexture hardBackGround;
+
+extern LTexture scoreTheme;
+extern LTexture easyOver;
+extern LTexture mediumOver;
+extern LTexture hardOver;
+extern LTexture easyWinning;
+extern LTexture mediumWinning;
+extern LTexture hardWinning;
+extern LTexture easyFont;
+extern LTexture mediumFont;
+extern LTexture hardFont;
+extern LTexture winning;
+extern LTexture game_over;
+extern LTexture play_again;
+extern LTexture play_againColor;
+
 extern LTexture wInput;
 extern LTexture hInput;
 extern LTexture mInput;
 extern TTF_Font* gFont;
+
+extern LTexture mineLeft;
 
 // Create board data
 extern std::vector <std::vector<int> > sBoard;
@@ -72,6 +87,7 @@ extern std::vector <std::vector<int> > board;
 // mines
 extern int mineCountLeft;
 extern int CountTileLeft;
+extern int score;
 
 // audio
 extern bool mute;
@@ -84,7 +100,6 @@ extern int distance_x;
 extern int distance_y;
 extern int digit_x;
 extern int digit_y;
-extern int timeDigit_x;
 
 // digits image
 extern LTexture Digits;
@@ -95,6 +110,7 @@ extern int BOARD_SIZE_X;
 extern int BOARD_SIZE_Y;
 extern int NumberOfMines;
 
+
 // boolean
 extern bool playAgain;
 extern bool saveScore;
@@ -103,6 +119,6 @@ extern bool easy;
 extern bool medium;
 extern bool hard;
 extern bool customMode;
-extern bool quit;
+extern bool isAgain;
 
 #endif

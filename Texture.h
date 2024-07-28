@@ -10,6 +10,7 @@
 #include<SDL_mixer.h>
 #include<string>
 #include <vector>
+#include <sstream>
 
 class LTexture
 {

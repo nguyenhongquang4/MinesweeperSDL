@@ -14,43 +14,6 @@ void LButton::setPosition(int x, int y)
 	mPosition.y = y;
 }
 
-void LButton::handleEventAgain(SDL_Event* e)
-{
-	if (e->type == SDL_MOUSEBUTTONDOWN)
-	{
-		int x, y;
-		SDL_GetMouseState(&x, &y);
-		bool inside = true;
-		//Mouse is left of the button
-		if (x < mPosition.x)
-		{
-			inside = false;
-		}
-		//Mouse is right of the button
-		else if (x > mPosition.x + 42)
-		{
-			inside = false;
-		}
-		//Mouse above the button
-		else if (y < mPosition.y)
-		{
-			inside = false;
-		}
-		//Mouse below the button
-		else if (y > mPosition.y + 42)
-		{
-			inside = false;
-		}
-		if (inside)
-		{
-			if (e->button.button == SDL_BUTTON_LEFT)
-			{
-				PlayAgain();
-			}
-		}
-	}
-}
-
 void LButton::handleEventBack(SDL_Event* e)
 {
 	if (e->type == SDL_MOUSEBUTTONDOWN)
@@ -84,56 +47,18 @@ void LButton::handleEventBack(SDL_Event* e)
 			{
 				SDL_SetWindowSize(window, SCREEN_WIDTH, SCREEN_HEIGHT);
 				isRunning = false;
-				//customMode = false;
 				isChoosing = true;
 				isWinning = false;
 				lose = false;
 				easy = false;
 				medium = false;
 				hard = false;
-				//cus = false;
+				score = 0;
 			}
 		}
 	}
 }
 
-/*void LButton::handleEventMute(SDL_Event* e)
-{
-	if (e->type == SDL_MOUSEBUTTONDOWN)
-	{
-		int x, y;
-		SDL_GetMouseState(&x, &y);
-		bool inside = true;
-		//Mouse is left of the button
-		if (x < mPosition.x)
-		{
-			inside = false;
-		}
-		//Mouse is right of the button
-		else if (x > mPosition.x + 50)
-		{
-			inside = false;
-		}
-		//Mouse above the button
-		else if (y < mPosition.y)
-		{
-			inside = false;
-		}
-		//Mouse below the button
-		else if (y > mPosition.y + 50)
-		{
-			inside = false;
-		}
-		if (inside)
-		{
-			if (e->button.button == SDL_BUTTON_LEFT)
-			{
-				if (mute == true) mute = false;
-				else mute = true;
-			}
-		}
-	}
-}*/
 void LButton::handleEvent(SDL_Event* e)
 {
 	//If mouse event happened

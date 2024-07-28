@@ -5,7 +5,6 @@ extern bool isRunning = false;
 extern bool showmenu = false;
 extern bool isChoosing = true;
 extern bool mainLoop = true;
-extern bool quit = false;
 
 // win or lose
 extern bool isWinning = false;
@@ -23,13 +22,6 @@ extern LTexture mediumTable(NULL, 0, 0);
 extern LTexture hardTable(NULL, 0, 0);
 extern LTexture scoreTheme(NULL, 0, 0);
 extern LTexture back(NULL, 0, 0);
-extern LTexture sound_on(NULL, 0, 0);
-extern LTexture sound_off(NULL, 0, 0);
-
-//image face
-extern LTexture winFace(NULL,0,0);
-extern LTexture playingFace(NULL,0,0);
-extern LTexture loseFace(NULL,0,0);
 
 // text
 extern LTexture menu(NULL, 0, 0);
@@ -45,9 +37,7 @@ extern LTexture hardChoiceColor(NULL, 0, 0);
 extern LTexture easyBackGround(NULL, 0, 0);
 extern LTexture mediumBackGround(NULL, 0, 0);
 extern LTexture hardBackGround(NULL, 0, 0);
-extern LTexture wInput(NULL, 0, 0);
-extern LTexture hInput(NULL, 0, 0);
-extern LTexture mInput(NULL, 0, 0);
+
 
 extern LTexture easyOver(NULL, 0, 0);
 extern LTexture mediumOver(NULL, 0, 0);
@@ -60,6 +50,8 @@ extern LTexture mediumFont(NULL, 0, 0);
 extern LTexture hardFont(NULL, 0, 0);
 extern LTexture winning(NULL, 0, 0);
 extern LTexture game_over(NULL, 0, 0);
+extern LTexture play_again(NULL, 0, 0);
+extern LTexture play_againColor(NULL, 0, 0);
 
 extern LTexture mineLeft(NULL, 0, 0);
 
@@ -72,7 +64,6 @@ extern LTexture Tiles_image(NULL, 0, 0);
 extern SDL_Rect Tilesprites[12] = {};
 
 // audio
-extern bool mute = false;
 extern Mix_Chunk* click = NULL;
 extern Mix_Music* loseMusic = NULL;
 extern Mix_Music* winMusic = NULL;
@@ -82,7 +73,6 @@ extern int distance_x = 0;
 extern int distance_y = 0;
 extern int digit_x = 0;
 extern int digit_y = 0;
-extern int timeDigit_x = 0;
 
 // digits image
 extern LTexture Digits(NULL, 0, 0);
@@ -100,4 +90,4 @@ extern bool start = false;
 extern bool easy = false;
 extern bool medium = false;
 extern bool hard = false;
-//extern bool cus = false;
+extern bool isAgain = false;
