@@ -1,20 +1,23 @@
 ## MINESWEEPER
 
-### 1.	Giới thiệu về bản thân
-### 2.	Giới thiệu về Game	
-### 3.	Cách thức chơi game	
-### 4.	Thông tin về các items trong Game	
-### 5.	Một vài hình ảnh của Game	
-### 6.	Cấu trúc Game.	
-### 7.	Cách cài đặt.	
-### 8.	Kỹ thuật, công nghệ sử dụng.
-### 9.	Nguồn tham khảo.
-### 10. Kết luận	
-#### a.	Ưu điểm
-#### b.	Nhược điểm
-#### c.	Bài học kinh nghiệm	
-#### d.	Hướng phát triển Game trong tương lai	
-#### e.	Mức điểm mong muốn 8.5+/10
+- [1. Giới thiệu về bản thân](#giới-thiệu-về-bản-thân)
+- [2. Giới thiệu về Game](#Giới-thiệu-về-Game)
+- [3. Hướng dẫn chơi Game](#Hướng-dẫn-chơi-Game)
+- [4. Thông tin về các items trong Game](#Thông-tin-về-các-item-trong-Game)
+- [5. Một vài hình ảnh của Game](#Một-vài-hình-ảnh-của-Game)
+- [6. Cấu trúc Game](#Cấu-trúc-Game)
+- [7. Cách cài đặt](#Cách-cài-đặt)
+- [8. Kỹ thuật, công nghệ sử dụng](#Kỹ-thuật-,-Công-nghệ-sử-dụng)
+- [9. Nguồn tham khảo](#Nguồn-tham-khảo)
+- [10. Kết luận](#Kết-luận)
+	- [a. Ưu điểm](#Ưu-điểm)
+   	- [b. Nhược điểm](#Nhược-điểm)
+   	- [c. Bài học kinh nghiệm](#Bài-học-kinh-nghiệm)
+   	- [d. Hướng phát triển Game trong tương lai](#Hướng-phát-triển-Game-trong-tương-lai)#
+   	- [e. Nguyện vọng về điểm](#Nguyện-vong-về-điểm)
+
+
+
 
 
 ## 1.	Giới thiệu về bản thân
@@ -31,7 +34,7 @@ Minesweeper là một game kinh điển đối với nhiều người. Game sẽ
 Video giới thiệu về game:
 
 
-## 3.	Cách thức chơi game
+## 3.	Hướng dẫn chơi Game
 Bạn phải tìm cách né/ bỏ qua các vị trí có mìn. Con số hiển thị tượng trưng số mìn có trong các ô xung quanh. 
 Nếu ô không có mìn, Các ô xung quanh sẽ đồng loạt tự hiển thị cho đến khi xuất hiện ô có mìn.
 Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
@@ -86,10 +89,10 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 •	Có phần tính điểm và quy tắc tính điểm của mỗi độ khó là khác nhau
 
 	|       | Ô không có mìn xung quang       | Ô có số lượng mìn xung quanh      |
-|------------|------------|------------|
-| Easy  | +10  | +5  |
-| Medium  | +20  |  +10 |
-| Hard  | +50 | +25 |
+	|------------|------------|------------|
+	| Easy       | +10        | +5         |
+	| Medium     | +20        |  +10       |
+	| Hard       | +50        | +25        |
 
 •	Có phần chơi lại (play again) mỗi khi game over hoặc thắng trò chơi.
 
@@ -114,4 +117,5 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 •	Có thể thêm chức năng về thời gian. Thời gian chơi càng sớm, điểm càng cao.
 
-### e.	Mức điểm mong muốn 8.5+/10
+### e.	Nguyện vọng về điểm
+Mức điểm mong muốn: 8.5+/10
