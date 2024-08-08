@@ -13,7 +13,7 @@
 	- [a. Ưu điểm](#Ưu-điểm)
    	- [b. Nhược điểm](#Nhược-điểm)
    	- [c. Bài học kinh nghiệm](#Bài-học-kinh-nghiệm)
-   	- [d. Hướng phát triển Game trong tương lai](#Hướng-phát-triển-Game-trong-tương-lai)#
+   	- [d. Hướng phát triển Game trong tương lai](#Hướng-phát-triển-Game-trong-tương-lai)
    	- [e. Nguyện vọng về điểm](#Nguyện-vong-về-điểm)
 
 
