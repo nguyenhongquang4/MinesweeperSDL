@@ -10,7 +10,7 @@
 - [Kỹ thuật, công nghệ sử dụng](#Kỹ-thuật-,-Công-nghệ-sử-dụng)
 - [Nguồn tham khảo](#Nguồn-tham-khảo)
 - [Kết luận](#Kết-luận)
-		- [Ưu điểm](#Ưu-điểm)
+  	- [Ưu điểm](#Ưu-điểm)
    	- [Nhược điểm](#Nhược-điểm)
    	- [Bài học kinh nghiệm](#Bài-học-kinh-nghiệm)
    	- [Hướng phát triển Game trong tương lai](#Hướng-phát-triển-Game-trong-tương-lai)
