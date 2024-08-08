@@ -88,11 +88,11 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 •	Có phần tính điểm và quy tắc tính điểm của mỗi độ khó là khác nhau
 
-	|            | Ô không có mìn xung quang | Ô có số lượng mìn xung quanh |
-	|------------|---------------------------|-------------------------------|
-	| Easy       | +10                       | +5                            |
-	| Medium     | +20                       | +10                           |
-	| Hard       | +50                       | +25                           |
+	|            | Ô không có mìn xung quanh | Ô có số lượng mìn xung quanh |
+	|------------|----------------------------|-------------------------------|
+	| Easy       | +10                        | +5                            |
+	| Medium     | +20                        | +10                           |
+	| Hard       | +50                        | +25                           |
 
 •	Có phần chơi lại (play again) mỗi khi game over hoặc thắng trò chơi.
 
