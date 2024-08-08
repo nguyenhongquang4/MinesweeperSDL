@@ -50,8 +50,19 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
  
 • ![bomb](https://github.com/user-attachments/assets/25db9cae-e727-493a-b37e-3a4874675c0b): Đây là item mìn (bomb), một khi mở trúng ô, trò chơi kết thúc.
 
+• ![backicon1](https://github.com/user-attachments/assets/4371007b-e684-44dd-b941-e640bc88e25b): Đây là item back, có thể quay lại chế độ khó của Game.
+
 
 ## Một vài hình ảnh của Game
+![background_minh_hoa](https://github.com/user-attachments/assets/5c9f56bc-205b-4c7e-8f7b-e0155b401dfd)
+
+![menu_minh_hoa](https://github.com/user-attachments/assets/2393a27d-24cf-4420-94cc-fa0bfc553720)
+
+![minh_hoa_bảng](https://github.com/user-attachments/assets/519bccfc-5c11-4dc9-8889-aadf1c488258)
+
+![minh_hoa_choi_gam](https://github.com/user-attachments/assets/2d4eb350-a5d2-4e2b-8594-2a9267c056b2)
+
+![playAgain_minh_hoa](https://github.com/user-attachments/assets/aa58f835-9003-4d83-a4a2-0ad948c93b94)
 
 ## Cấu trúc Game.
 •	Button.cpp: Một lớp xử lý khung chữ, các sự kiện, xử lý di chuyển và click chuột.
