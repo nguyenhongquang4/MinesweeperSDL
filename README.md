@@ -1,20 +1,20 @@
-## MINESWEEPER
+# MINESWEEPER
 
-- [1. Giới thiệu về bản thân](#giới-thiệu-về-bản-thân)
-- [2. Giới thiệu về Game](#Giới-thiệu-về-Game)
-- [3. Hướng dẫn chơi Game](#Hướng-dẫn-chơi-Game)
-- [4. Thông tin về các items trong Game](#Thông-tin-về-các-item-trong-Game)
-- [5. Một vài hình ảnh của Game](#Một-vài-hình-ảnh-của-Game)
-- [6. Cấu trúc Game](#Cấu-trúc-Game)
-- [7. Cách cài đặt](#Cách-cài-đặt)
-- [8. Kỹ thuật, công nghệ sử dụng](#Kỹ-thuật-,-Công-nghệ-sử-dụng)
-- [9. Nguồn tham khảo](#Nguồn-tham-khảo)
-- [10. Kết luận](#Kết-luận)
-	- [a. Ưu điểm](#Ưu-điểm)
-   	- [b. Nhược điểm](#Nhược-điểm)
-   	- [c. Bài học kinh nghiệm](#Bài-học-kinh-nghiệm)
-   	- [d. Hướng phát triển Game trong tương lai](#Hướng-phát-triển-Game-trong-tương-lai)
-   	- [e. Nguyện vọng về điểm](#Nguyện-vong-về-điểm)
+- [1. Giới thiệu về bản thân](#1.giới-thiệu-về-bản-thân)
+- [2. Giới thiệu về Game](#2.Giới-thiệu-về-Game)
+- [3. Hướng dẫn chơi Game](#3.Hướng-dẫn-chơi-Game)
+- [4. Thông tin về các items trong Game](#4.Thông-tin-về-các-items-trong-Game)
+- [5. Một vài hình ảnh của Game](#5.Một-vài-hình-ảnh-của-Game)
+- [6. Cấu trúc Game](#6.Cấu-trúc-Game)
+- [7. Cách cài đặt](#7.Cách-cài-đặt)
+- [8. Kỹ thuật, công nghệ sử dụng](8.#Kỹ-thuật-,-Công-nghệ-sử-dụng)
+- [9. Nguồn tham khảo](9.#Nguồn-tham-khảo)
+- [10. Kết luận](#10.Kết-luận)
+		- [a. Ưu điểm](#a.Ưu-điểm)
+   	- [b. Nhược điểm](#b.Nhược-điểm)
+   	- [c. Bài học kinh nghiệm](#c.Bài-học-kinh-nghiệm)
+   	- [d. Hướng phát triển Game trong tương lai](#d.Hướng-phát-triển-Game-trong-tương-lai)
+   	- [e. Nguyện vọng về điểm](#e.Nguyện-vong-về-điểm)
 
 
 
