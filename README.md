@@ -23,7 +23,7 @@
 ## 1.	Giới thiệu về bản thân
 •	Họ và tên: Nguyễn Hồng Quang
 
-• 	Mã sinh viên: 22028263
+• Mã sinh viên: 22028263
 
 •	Lớp học phần: 2324II_INT2215_70
 
@@ -88,7 +88,7 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 •	Có phần tính điểm và quy tắc tính điểm của mỗi độ khó là khác nhau
 
-	|       | Ô không có mìn xung quang       | Ô có số lượng mìn xung quanh      |
+	|| Ô không có mìn xung quang|Ô có số lượng mìn xung quanh|
 	|------------|------------|------------|
 	| Easy       | +10        | +5         |
 	| Medium     | +20        |  +10       |
