@@ -99,11 +99,6 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 •	Có phần chơi lại (play again) mỗi khi game over hoặc thắng trò chơi.
 
 ### Nhược điểm
-•	Giao diện đồ họa vẫn chưa được đẹp mắt, vẫn ở mức cơ bản
-
-•	File MainFunction.cpp vẫn chưa tối ưu hóa hoàn toàn các mức độ khó. Chưa chia thành các file nhỏ để có thể thuận tiện đọc và theo dõi.
-
-•	Trong lúc làm game, có một vài biến, đối tượng em tạo nhưng không sử dụng mà vẫn chưa xóa -> code chưa hoàn toàn refresh.
 
 ### Bài học kinh nghiệm
 •	Có thể phát triển một game hoàn chỉnh, từ logic game, xử lý sự kiện game, cải thiện về phần refactor code.
@@ -119,5 +114,4 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 •	Có thể thêm chức năng về thời gian. Thời gian chơi càng sớm, điểm càng cao.
 
-### Nguyện vọng về điểm
-Mức điểm mong muốn: 8.5+/10
+
