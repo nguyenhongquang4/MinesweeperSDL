@@ -66,7 +66,7 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 
 ## Cách cài đặt.
-
+• 
 ## Kỹ thuật, công nghệ sử dụng
 •	Sử dụng các tính năng trong thư viện SDL bao gồm: xử lý đồ họa, font chữ, âm thanh, thao tác chuột, bàn phím, …
 
@@ -99,6 +99,9 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 •	Có phần chơi lại (play again) mỗi khi game over hoặc thắng trò chơi.
 
 ### Nhược điểm
+•	Giao diện đồ họa vẫn chưa được đẹp mắt, vẫn ở mức cơ bản
+
+•	File MainFunction.cpp vẫn chưa tối ưu hóa hoàn toàn các mức độ khó. Chưa chia thành các file nhỏ để có thể thuận tiện đọc và theo dõi.
 
 ### Bài học kinh nghiệm
 •	Có thể phát triển một game hoàn chỉnh, từ logic game, xử lý sự kiện game, cải thiện về phần refactor code.
@@ -113,5 +116,8 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 •	Cải thiện lại phần đồ họa để có giao diện thân thiện với người dùng.
 
 •	Có thể thêm chức năng về thời gian. Thời gian chơi càng sớm, điểm càng cao.
+
+### Nguyện vọng về điểm
+Mức điểm mong muốn 8.5+/10.
 
 
