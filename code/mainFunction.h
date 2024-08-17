@@ -13,7 +13,6 @@ void close();
 void CreateBoard();
 void createMenu();
 void createModeMenu();
-void CustomMode();
 void showMenu();
 void showModeChoice();
 void setButtonPosition();
