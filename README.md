@@ -89,6 +89,9 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 •	Người chơi có thể lựa chọn 3 cấp độ khó với ma trận ô và số lượng mìn khác nhau
 
 •	Có phần tính điểm và quy tắc tính điểm của mỗi độ khó là khác nhau
+
+
+
 	| Độ khó | Ô không có mìn xung quanh | Ô có số lượng mìn xung quanh |
 	|--------|---------------------------|------------------------------|
 	| Easy   | +10                       | +5                           |
