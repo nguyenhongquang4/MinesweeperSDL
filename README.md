@@ -55,6 +55,15 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 ## Một vài hình ảnh của Game
 
+![background](https://github.com/user-attachments/assets/d7d1b0fb-451f-4bd8-aae4-ca81985a6b9c)
+
+![mode](https://github.com/user-attachments/assets/475e8899-1416-4797-a3be-fdc6bce51f0e)
+
+![onGame](https://github.com/user-attachments/assets/12209a4c-3332-41c1-b1ff-bb4eb0bd8f36)
+
+![playAgain](https://github.com/user-attachments/assets/c28a9d2c-9e75-4289-a1e3-8f743e9606e1)
+
+
 ## Cấu trúc Game.
 •	Button.cpp: Một lớp xử lý khung chữ, các sự kiện, xử lý di chuyển và click chuột.
 
@@ -66,7 +75,23 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 
 ## Cách cài đặt.
-• 
+• Link download thư viện SDL2.0: https://github.com/libsdl-org/SDL/releases/tag/release-2.30.6
+
+• Download code và file.exe ở giao diện Code ở dưới
+
+![CODE](https://github.com/user-attachments/assets/3494ec9a-e63c-4007-bc41-303c22064e0f)
+
+
+• Trong phần local, chọn Github CLI và download zip.
+
+![Local](https://github.com/user-attachments/assets/939225bd-2cf1-4a28-8d41-c2cee1c5ee0d)
+
+• Sau khi download về, extract (giải nén) toàn bộ folder zip.
+ 
+• Folder Debug bao gồm file.exe có thể chơi mà không cần chạy code.
+
+• Các Folder còn lại bao gồm code, âm thanh, font và hình ảnh. Muốn chỉnh sửa code hãy thay đổi đường dẫn file âm thanh, font và hình ảnh phù hợp với máy của bạn. 
+
 ## Kỹ thuật, công nghệ sử dụng
 •	Sử dụng các tính năng trong thư viện SDL bao gồm: xử lý đồ họa, font chữ, âm thanh, thao tác chuột, bàn phím, …
 
