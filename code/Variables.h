@@ -35,7 +35,6 @@ extern LTexture levelTheme;
 extern LTexture easyTable;
 extern LTexture mediumTable;
 extern LTexture hardTable;
-extern LTexture customStart;
 extern LTexture back;
 
 
@@ -73,9 +72,6 @@ extern LTexture game_over;
 extern LTexture play_again;
 extern LTexture play_againColor;
 
-extern LTexture wInput;
-extern LTexture hInput;
-extern LTexture mInput;
 extern TTF_Font* gFont;
 
 extern LTexture mineLeft;
@@ -90,7 +86,7 @@ extern int CountTileLeft;
 extern int score;
 
 // audio
-extern bool mute;
+
 extern Mix_Chunk* click;
 extern Mix_Music* loseMusic;
 extern Mix_Music* winMusic;
@@ -118,7 +114,6 @@ extern bool start;
 extern bool easy;
 extern bool medium;
 extern bool hard;
-extern bool customMode;
 extern bool isAgain;
 
 #endif

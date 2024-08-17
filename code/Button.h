@@ -16,7 +16,6 @@ public:
 	void setPosition(int x, int y);
 
 	//set button in game
-	void handleEventAgain(SDL_Event* e);
 	void handleEventBack(SDL_Event* e);
 
 	//Handles mouse event
