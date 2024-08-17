@@ -55,9 +55,9 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 ## Một vài hình ảnh của Game
 
-![background](https://github.com/user-attachments/assets/d7d1b0fb-451f-4bd8-aae4-ca81985a6b9c)
+![background](https://github.com/user-attachments/assets/8ea9bcfa-5c50-4361-b1b8-d7700cfd0a8c)
 
-![mode](https://github.com/user-attachments/assets/475e8899-1416-4797-a3be-fdc6bce51f0e)
+![mode](https://github.com/user-attachments/assets/6cfff790-0fc3-45d9-9089-c55987021a6a)
 
 ![onGame](https://github.com/user-attachments/assets/12209a4c-3332-41c1-b1ff-bb4eb0bd8f36)
 
