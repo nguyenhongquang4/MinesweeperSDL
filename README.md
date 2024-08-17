@@ -31,7 +31,7 @@
 ## Giới thiệu về Game
 Minesweeper là một game kinh điển đối với nhiều người. Game sẽ hiển thị một ma trận các ô vuông. Nhiệm vụ của người chơi là cần phải  tính toán về số lượng mìn xung quanh, lựa chọn ô không có mìn, cũng như là có một chút may mắn nữa. 
 
-Video giới thiệu về game:
+Video giới thiệu về game: https://drive.google.com/file/d/1mO9vGFxC253ilSw82ph92PTfyGddf3S8/view?usp=drive_link
 
 
 ## Hướng dẫn chơi Game
@@ -88,9 +88,9 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 • Sau khi download về, extract (giải nén) toàn bộ folder zip.
  
-• Folder Debug bao gồm file.exe có thể chơi mà không cần chạy code.
+• Folder Debug bao gồm file.exe có thể chơi mà không cần chạy code. Cần có môi trường MinGW để có thể chạy được. Link download: https://sourceforge.net/projects/mingw/
 
-• Các Folder còn lại bao gồm code, âm thanh, font và hình ảnh. Muốn chỉnh sửa code hãy thay đổi đường dẫn file âm thanh, font và hình ảnh phù hợp với máy của bạn. 
+• Các Folder còn lại bao gồm code, âm thanh, font và hình ảnh. Muốn chỉnh sửa hoặc thay đổi code hãy thay đổi đường dẫn file âm thanh, font và hình ảnh phù hợp với máy của bạn. 
 
 ## Kỹ thuật, công nghệ sử dụng
 •	Sử dụng các tính năng trong thư viện SDL bao gồm: xử lý đồ họa, font chữ, âm thanh, thao tác chuột, bàn phím, …
@@ -140,9 +140,8 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 •	Cải thiện lại phần đồ họa để có giao diện thân thiện với người dùng.
 
-•	Có thể thêm chức năng về thời gian. Thời gian chơi càng sớm, điểm càng cao.
+•	Có thể thêm chức năng về thời gian. Thời gian chơi càng sớm, điểm càng cao. (Thầy hướng dẫn nhưng chưa implement thành công)
 
 ### Nguyện vọng về điểm
 Mức điểm mong muốn 8.5+/10.
-
 
