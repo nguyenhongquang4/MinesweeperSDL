@@ -88,7 +88,7 @@ Khi chọn trúng ô có mìn, trò chơi kết thúc và bạn thua.
 
 • Sau khi download về, extract (giải nén) toàn bộ folder zip.
  
-• Folder Debug bao gồm file.exe có thể chơi mà không cần chạy code. Cần có môi trường MinGW để có thể chạy được. Link download: https://sourceforge.net/projects/mingw/
+• Folder Debug bao gồm file.exe có thể chơi mà không cần chạy code. Trong trường hợp không thể mở file.exe, hãy thử download MinGW. Link download: https://sourceforge.net/projects/mingw/
 
 • Các Folder còn lại bao gồm code, âm thanh, font và hình ảnh. Muốn chỉnh sửa hoặc thay đổi code hãy thay đổi đường dẫn file âm thanh, font và hình ảnh phù hợp với máy của bạn. 
 
