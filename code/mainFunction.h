@@ -13,6 +13,7 @@ void close();
 void CreateBoard();
 void createMenu();
 void createModeMenu();
+void createMenuAfterPlay(const int width1, const int height1, const int width2, const int height2);
 void showMenu();
 void showModeChoice();
 void setButtonPosition();
